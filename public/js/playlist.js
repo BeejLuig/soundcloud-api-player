@@ -16,8 +16,8 @@ class Playlist {
           <div class="card">
             <div class="card-body">
               <div class="artwork" style="background-image: url({{artwork_url}})" onclick="Playlist.stream(this)" id={{index}} data-id={{id}}></div>
-              <h3 class="track-title">{{title}}</h3>
-              <p><a href="{{user.permalink_url}}" target="_blank">Artist: {{user.username}}</a><p>
+              <h3 onclick="Playlist.stream(this)" id={{index}} data-id={{id}} class="track-title">{{title}}</h3>
+              <p><a href="{{user.permalink_url}}" target="_blank">by {{user.username}}</a><p>
             </div>
           </div>
         {{/tracks}}
