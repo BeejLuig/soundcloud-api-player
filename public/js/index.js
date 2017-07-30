@@ -1,5 +1,5 @@
 const playlistTag = Select._id("playlist")
-const clientId = 'fd4e76fc67798bfa742089ed619084a6'
+const clientId = ''
 
 var form = Select._element("form")
 form.onsubmit = function(e){
