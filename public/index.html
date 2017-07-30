@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Soundcloud Jukebox</title>
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <div id="search">
+      <h1>Soundcloud API Search</h1>
+      <form>
+        <div class="form-group">
+          <input type="text" placeholder="Try anything">
+          <button type="submit" class="search-btn">Search</button>
+        </div>
+      </form>
+    </div>
+    <div id="playlist"></div>
+    <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/oj.mustache/0.7.2/oj.mustache.min.js"></script>
+    <script src="js/select.js"></script>
+    <script src="js/playlist.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
